@@ -22,7 +22,7 @@ This script is useful because you can look at how the review dict is organized.
 This sketch shows the snippet to separate a string into individual words using nltk.
 The example text is a random review.
 
-=== Script: reviews_analysis.py
+=== Script: average-wordcount.py
 This one actually implements the actual analysis.
 
 ==== review_list usage of list
