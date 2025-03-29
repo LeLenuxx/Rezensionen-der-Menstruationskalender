@@ -51,8 +51,11 @@ std_dev_words = []
 for num_stars in range(0, 5):
     list_num_words.append([])
     for review in review_list[num_stars]:
-        tokens = tokenizer.tokenize(review)
-        num_words = len(tokens)
+        if review != None:
+            tokens = tokenizer.tokenize(review)
+            num_words = len(tokens)
+        else:
+            num_stars = 0
         list_num_words[num_stars].append(num_words)
     average_words.append(np.average(list_num_words[num_stars]))
     median_words.append(np.median(list_num_words[num_stars]))
