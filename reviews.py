@@ -13,11 +13,13 @@ apps = [
 apps_names = ["Perioden Kalender", "Mein Menstruations-Kalender", "Flo Zyklus-& Perioden-Kalender", "Perioden Kalender - Clover", "Clue Perioden Kalender", ]
 
 review_count = 50 # Anzahl der generierten Rezensionen
-score_filter = 3 # Welches Bewertungskriterium betrachtet wird (1-5 Sterne)
-filter_length = 40 # Durchschnittliche Wortanzahl pro Bewertung und App
+score_filter = 1 # Welches Bewertungskriterium betrachtet wird (1-5 Sterne)
+filter_length = 27 # Durchschnittliche Wortanzahl pro Bewertung und App
+
+# Beispielzahlen für Ergebnisse der Tabelle 4 von der 1-Stern Bewertung des Perioden Kalenders 
 
 result, continuation_token = reviews(
-    apps[2], # Welche App betrachtet wird
+    apps[0], # Welche App betrachtet wird
     country="de",
     lang="de",
     sort=Sort.NEWEST,  
