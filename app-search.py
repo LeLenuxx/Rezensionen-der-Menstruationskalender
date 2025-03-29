@@ -4,9 +4,9 @@ from google_play_scraper import search
 # Put the search terms here, and it will print the top 3 results by default
 
 result = search(
-    "Flo", # Enter a name here to search it in the google play store (works like the search bar in the app)
+    "com.popularapp.periodcalendar", # Enter a name here to search it in the google play store (works like the search bar in the app)
     lang="de",  # Look for english results
-    n_hits=3  # Number of results
+    n_hits=1  # Number of results
 )
 
 print(result)
