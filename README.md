@@ -1,10 +1,6 @@
 # Methodisches Vorgehen
 
 
-## Skripte
-Angefügt ist die Verwendung für die einzelnen Skripte
-
-
 ### Skript: reviews.py
 Das Skript generiert die 50 neusten Rezensionen pro App, die für Tabelle 4 in ihrer Anzahl auf mindestens die durchschnittliche Wortanzahl reduziert wurden.
 
